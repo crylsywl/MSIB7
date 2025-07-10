@@ -42,17 +42,17 @@ const Homepage = () => {
                   className="w-[41px] h-[41px] rounded-full z-1 border-2 boredr-[#fffff0]"
                 />
                 <img
-                  src="/assets/user2.png"
+                  src="/assets/User2.png"
                   alt=""
                   className="w-[41px] h-[41px] -ml-[12px] rounded-full z-2 border-2 boredr-[#fffff0]"
                 />
                 <img
-                  src="/assets/user3.png"
+                  src="/assets/User3.png"
                   alt=""
                   className="w-[41px] h-[41px] -ml-[12px] rounded-full z-3 border-2 boredr-[#fffff0]"
                 />
                 <img
-                  src="/assets/user4.png"
+                  src="/assets/User4.png"
                   alt=""
                   className="w-[41px] h-[41px] -ml-[12px] rounded-full z-4 border-2 boredr-[#fffff0]"
                 />
@@ -62,19 +62,19 @@ const Homepage = () => {
                   Dipercaya oleh 100k orang
                 </h6>
                 <div className="flex items-end">
-                  <img src="/assets/Star.svg" alt="" className="w-6 h-6 " />
+                  <img src="/assets/star.svg" alt="" className="w-6 h-6 " />
                   <img
-                    src="/assets/Star.svg"
+                    src="/assets/star.svg"
                     alt=""
                     className="w-6 h-6 -ml-[5px]"
                   />
                   <img
-                    src="/assets/Star.svg"
+                    src="/assets/star.svg"
                     alt=""
                     className="w-6 h-6 -ml-[5px]"
                   />
                   <img
-                    src="/assets/Star.svg"
+                    src="/assets/star.svg"
                     alt=""
                     className="w-6 h-6 -ml-[5px]"
                   />
