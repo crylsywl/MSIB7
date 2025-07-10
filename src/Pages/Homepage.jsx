@@ -37,22 +37,22 @@ const Homepage = () => {
             <div className="flex gap-[8px]">
               <div className="flex ">
                 <img
-                  src="/public/assets/user1.png"
+                  src="/assets/user1.png"
                   alt=""
                   className="w-[41px] h-[41px] rounded-full z-1 border-2 boredr-[#fffff0]"
                 />
                 <img
-                  src="/public/assets/user2.png"
+                  src="/assets/user2.png"
                   alt=""
                   className="w-[41px] h-[41px] -ml-[12px] rounded-full z-2 border-2 boredr-[#fffff0]"
                 />
                 <img
-                  src="/public/assets/user3.png"
+                  src="/assets/user3.png"
                   alt=""
                   className="w-[41px] h-[41px] -ml-[12px] rounded-full z-3 border-2 boredr-[#fffff0]"
                 />
                 <img
-                  src="/public/assets/user4.png"
+                  src="/assets/user4.png"
                   alt=""
                   className="w-[41px] h-[41px] -ml-[12px] rounded-full z-4 border-2 boredr-[#fffff0]"
                 />
@@ -62,24 +62,24 @@ const Homepage = () => {
                   Dipercaya oleh 100k orang
                 </h6>
                 <div className="flex items-end">
-                  <img src="/public/assets/Star.svg" alt="" className="w-6 h-6 " />
+                  <img src="/assets/Star.svg" alt="" className="w-6 h-6 " />
                   <img
-                    src="/public/assets/Star.svg"
+                    src="/assets/Star.svg"
                     alt=""
                     className="w-6 h-6 -ml-[5px]"
                   />
                   <img
-                    src="/public/assets/Star.svg"
+                    src="/assets/Star.svg"
                     alt=""
                     className="w-6 h-6 -ml-[5px]"
                   />
                   <img
-                    src="/public/assets/Star.svg"
+                    src="/assets/Star.svg"
                     alt=""
                     className="w-6 h-6 -ml-[5px]"
                   />
                   <img
-                    src="/public/assets/star_half.svg"
+                    src="/assets/star_half.svg"
                     alt=""
                     className="w-6 h-6 -ml-[5px]"
                   />
@@ -91,13 +91,13 @@ const Homepage = () => {
             </div>
           </div>
           <div className="w-1/2">
-            <img src="/public/assets/Banner Homepage.jpg" alt="" />
+            <img src="/assets/Banner Homepage.jpg" alt="" />
           </div>
         </div>
         <div className="mx-[150px] mt-[60px] items-center gap-[32px] flex justify-center">
           <div className="flex items-center gap-[10px] flex-col w-auto h-fit shadow-xl rounded-md p-[20px] hover:scale-105 hover:shadow-2xl transition-all duration-300 ease-in-out">
             <img
-              src="/public/assets/Karier.svg"
+              src="/assets/Karier.svg"
               alt=""
               className="w-[147px] h-[147px]"
             />
@@ -111,7 +111,7 @@ const Homepage = () => {
           </div>
           <div className="flex items-center gap-[10px] flex-col w-auto h-fit shadow-xl rounded-md p-[20px] hover:scale-105 hover:shadow-2xl transition-all duration-300 ease-in-out">
             <img
-              src="/public/assets/Interview.svg"
+              src="/assets/Interview.svg"
               alt=""
               className="w-[147px] h-[147px]"
             />
@@ -125,7 +125,7 @@ const Homepage = () => {
           </div>
           <div className="flex items-center gap-[10px] flex-col w-auto h-fit shadow-xl rounded-md p-[20px] hover:scale-105 hover:shadow-2xl transition-all duration-300 ease-in-out">
             <img
-              src="/public/assets/Portfolio.svg"
+              src="/assets/Portfolio.svg"
               alt=""
               className="w-[147px] h-[147px]"
             />
@@ -167,7 +167,7 @@ const Homepage = () => {
                 }}
               >
                 <img
-                  src="/public/assets/RakaPoster.jpg"
+                  src="/assets/RakaPoster.jpg"
                   alt=""
                   className="w-[195px] -mr-[150px]"
                 />
@@ -188,7 +188,7 @@ const Homepage = () => {
                 }}
               >
                 <img
-                  src="/public/assets/TiaraPoster.jpg"
+                  src="/assets/TiaraPoster.jpg"
                   alt=""
                   className="w-[195px] z-10 -mr-[150px] "
                 />
@@ -213,7 +213,7 @@ const Homepage = () => {
                 }}
               >
                 <img
-                  src="/public/assets/NadiaPoster.jpg"
+                  src="/assets/NadiaPoster.jpg"
                   alt=""
                   className="w-[195px]"
                 />
@@ -278,7 +278,7 @@ const Homepage = () => {
                 }}
               >
                 <img
-                  src="/public/assets/elearning back 1.jpg"
+                  src="/assets/elearning back 1.jpg"
                   alt=""
                   className="w-[195px]"
                 />
@@ -299,7 +299,7 @@ const Homepage = () => {
                 }}
               >
                 <img
-                  src="/public/assets/elearning front.jpg"
+                  src="/assets/elearning front.jpg"
                   alt=""
                   className="w-[195px] z-10 "
                 />
@@ -324,7 +324,7 @@ const Homepage = () => {
                 }}
               >
                 <img
-                  src="/public/assets/elearning back 2.jpg"
+                  src="/assets/elearning back 2.jpg"
                   alt=""
                   className="w-[195px]"
                 />
@@ -353,7 +353,7 @@ const Homepage = () => {
                 }}
               >
                 <img
-                  src="/public/assets/artikel back1.jpg"
+                  src="/assets/artikel back1.jpg"
                   alt=""
                   className="w-[195px] -mr-[150px]"
                 />
@@ -374,7 +374,7 @@ const Homepage = () => {
                 }}
               >
                 <img
-                  src="/public/assets/artikel front.jpg"
+                  src="/assets/artikel front.jpg"
                   alt=""
                   className="w-[195px] z-10 -mr-[150px] "
                 />
@@ -399,7 +399,7 @@ const Homepage = () => {
                 }}
               >
                 <img
-                  src="/public/assets/artikel back2.jpg"
+                  src="/assets/artikel back2.jpg"
                   alt=""
                   className="w-[195px]"
                 />
@@ -459,32 +459,32 @@ export default Homepage;
 const data = [
   {
     Name: "Tiara Dewi",
-    image: "/public/assets/Tiara Dewi.jpg",
+    image: "/assets/Tiara Dewi.jpg",
     Profesi: "CV Consultant",
   },
   {
     Name: "Raka Nugraha",
-    image: "/public/assets/Raka Nugraha.jpg",
+    image: "/assets/Raka Nugraha.jpg",
     Profesi: "Portfolio Advisor",
   },
   {
     Name: "Nadia Kurnia",
-    image: "/public/assets/Nadia Kurnia.jpg",
+    image: "/assets/Nadia Kurnia.jpg",
     Profesi: "HR Specialist",
   },
   {
     Name: "Maya Putri",
-    image: "/public/assets/Maya Putri.jpg",
+    image: "/assets/Maya Putri.jpg",
     Profesi: "Portfolio Advisor",
   },
   {
     Name: "Rian Utama",
-    image: "/public/assets/Rian Utama.jpg",
+    image: "/assets/Rian Utama.jpg",
     Profesi: "HR Consultant",
   },
   {
     Name: "Siska Larasati",
-    image: "/public/assets/Siska Larasati.jpg",
+    image: "/assets/Siska Larasati.jpg",
     Profesi: "CV Consultant",
   },
 ];
