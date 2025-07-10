@@ -88,7 +88,7 @@ const Mentoring = () => {
           <Link to="/">
             <div className="hover:ring-1 hover:ring-[#fdab7f] flex items-center p-[20px] gap-[18px] justify-start h-[150px] w-fit shadow-[0px_4px_10px_rgba(0,_0,_0,_0.3)] bg-[#fffff0] rounded-[10px]">
               <img
-                src="/public/assets/CV.png"
+                src="/assets/CV.png"
                 alt=""
                 className="w-[100px] h-auto"
               />
