@@ -11,7 +11,7 @@ export default function VideoPlayer() {
         controls 
         style={{ border: "2px solid black" }}
       >
-        <source src="/src/assets/CV Video.mp4" type="video/mp4" />
+        <source src="/assets/CV Video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       </div>

@@ -9,15 +9,15 @@ function SoalCard({ soal = {} }) {
           <h3 className="h-full mb-2 text-lg font-semibold line-clamp-2">{title}</h3>
           <div className="flex flex-col gap-1 text-[#FFFFF0] text-sm">
             <span className="flex items-center gap-1">
-              <img src="/public/assets/assetsvivit/person_outline.svg" alt="time" className="w-4 h-4" />
+              <img src="/assets/assetsvivit/person_outline.svg" alt="time" className="w-4 h-4" />
               {time} Menit
             </span>
             <span className="flex items-center gap-1">
-              <img src="/public/assets/assetsvivit/video_library.svg" alt="Videos" className="w-4 h-4" />
+              <img src="/assets/assetsvivit/video_library.svg" alt="Videos" className="w-4 h-4" />
               {jumlah} Soal
             </span>
             <span className="flex items-center gap-1">
-              <img src="/public/assets/assetsvivit/star.svg" alt="Rating" className="w-4 h-4" />
+              <img src="/assets/assetsvivit/star.svg" alt="Rating" className="w-4 h-4" />
               {rating}/5
             </span>
           </div>

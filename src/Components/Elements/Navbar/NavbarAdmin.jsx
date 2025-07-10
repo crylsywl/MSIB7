@@ -20,7 +20,7 @@ export default function Navbar({ onSearch }) {
     <nav className=' fixed top-0 left-0 z-50 w-full h-16px px-[150px] py-2.5 bg-[#4c37ee] shadow justify-between items-center inline-flex'>
         <ul>
           <li className='flex items-center justify-center'>
-            <Link to='/admin' ><img src="/public/assets/Logo Navbar 1.png" alt="logo navbar" className=' h-[44px]'/></Link>
+            <Link to='/admin' ><img src="/assets/Logo Navbar 1.png" alt="logo navbar" className=' h-[44px]'/></Link>
           </li>
         </ul>
         <ul className='h-[19px] justify-start items-center gap-5 inline-flex'>
@@ -34,7 +34,7 @@ export default function Navbar({ onSearch }) {
             <li className='text-[#fffff0] text-base font-semibold font-sans leading-[19px] hover:text-[#fb6816] transition border-b-2 border-[#4c37ee] hover:border-[#fb6816] cursor-pointer '>Data Peserta</li>
           </Link>
         </ul>
-        {/* <ul className='flex justify-center items-center'>
+        {/* <ul className='flex items-center justify-center'>
           <li className='w-full'>
             <input type=
               "text" className='text-black active:text-black rounded-md w-[600px] focus:text-black px-4 py-2 w-full' 
@@ -47,7 +47,7 @@ export default function Navbar({ onSearch }) {
           </li>
         </ul> */}
         {!isLoggedIn ? (
-            <ul className='flex gap-2 justify-end'>
+            <ul className='flex justify-end gap-2'>
             <li className='text-[#fffff0]'>
                 {/* <Link to="">Sign in</Link> */}
                 <Button type="Link" to="/login" classname='shadow-[inset_0px_-4px_10px_rgba(0,_0,_0,_0.3)] hover:shadow-[inset_0px_4px_10px_rgba(0,_0,_0,_0.3)] py-2 px-4 bg-[#fb6816] text-[#fffff0] shadow-inner-md font-sans transition hover:bg-[#fdab7f] ' onClick={ login}>Masuk</Button>
@@ -55,13 +55,13 @@ export default function Navbar({ onSearch }) {
         </ul>
         )
         : (
-            <ul className='flex justify-end items-center gap-2'>
+            <ul className='flex items-center justify-end gap-2'>
             <li>
                 <button onClick={logout} className='text-[#F2F4FF] font-sans hover:text-[#565f93] active:text-[#1d2342]'>Sign out</button>
             </li>
             <li >
                 <Link to="/editprofile" >
-                <img src="/public/assetsvivit/account.svg" alt="account" className='w-[30px] h-[30px] '/>
+                <img src="/assetsvivit/account.svg" alt="account" className='w-[30px] h-[30px] '/>
                 </Link>
             </li>
             </ul>

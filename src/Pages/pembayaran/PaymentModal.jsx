@@ -14,7 +14,7 @@ export default function PaymentModal({ onClose }) {
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           <PaymentOption
             name="Gopay"
-            image="/public/assets/assetsvivit/gopay.png"
+            image="/assets/assetsvivit/gopay.png"
             fee={1000}
             total={16000}
             isSelected={selectedPayment === "Gopay"}
@@ -22,7 +22,7 @@ export default function PaymentModal({ onClose }) {
           />
           <PaymentOption
             name="OVO"
-            image="/public/assets/assetsvivit/OVO.png"
+            image="/assets/assetsvivit/OVO.png"
             fee={2000}
             total={17000}
             isSelected={selectedPayment === "OVO"}
@@ -30,7 +30,7 @@ export default function PaymentModal({ onClose }) {
           />
           <PaymentOption
             name="ShopeePay"
-            image="/public/assets/assetsvivit/sopay.png"
+            image="/assets/assetsvivit/sopay.png"
             fee={2000}
             total={17000}
             isSelected={selectedPayment === "ShopeePay"}
@@ -38,7 +38,7 @@ export default function PaymentModal({ onClose }) {
           />
           <PaymentOption
             name="Dana"
-            image="/public/assets/assetsvivit/Dana.png"
+            image="/assets/assetsvivit/Dana.png"
             fee={2000}
             total={17000}
             isSelected={selectedPayment === "Dana"}

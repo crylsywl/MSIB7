@@ -21,7 +21,7 @@ export default function Navbar({ onSearch }) {
         <li className="flex items-center justify-center">
           <Link to="/">
             <img
-              src="/public/assets/Logo Navbar 1.png"
+              src="/assets/Logo Navbar 1.png"
               alt="logo navbar"
               className=" h-[44px]"
             />
@@ -93,7 +93,7 @@ export default function Navbar({ onSearch }) {
           <li>
             <Link to="/editprofile">
               <img
-                src="/public/assets/assetsvivit/account.svg"
+                src="/assets/assetsvivit/account.svg"
                 alt="account"
                 className="w-[30px] h-[30px] "
               />

@@ -42,16 +42,16 @@ const Datamentor = () => {
                 <button onClick={handleOpenOverlay} className="w-full h-[122px] rounded-[10px] flex-col justify-start items-start gap-2.5 inline-flex">
                     <div className="self-stretch p-5 bg-[#d2d2d2] rounded-[20px] justify-between items-center inline-flex">
                         <div className="justify-start items-center gap-[37px] flex">
-                            <img className="w-[82px] h-[82px] rounded-[10px]" src="/public/assetsvivit/Tiara.png" />
+                            <img className="w-[82px] h-[82px] rounded-[10px]" src="/assetsvivit/Tiara.png" />
                             <div className="w-full flex-col justify-start items-start gap-1.5">
                                 <div className="self-stretch text-black text-lg font-semibold font-['Plus Jakarta Sans'] leading-snug">Tiara Dewi</div>
                                 <div className="self-stretch text-black text-base font-normal font-['Plus Jakarta Sans'] leading-[19px]">CV Consultant</div>
                             </div>
                         </div>
-                        <div className="justify-start items-center gap-2 flex">
+                        <div className="flex items-center justify-start gap-2">
                             <div className="w-4 h-4 bg-[#15d0a3] rounded-full" />
                             <div className="text-black text-base font-normal font-['Plus Jakarta Sans'] leading-[19px]">Aktif di 3 kelas</div>
-                            <div className="w-6 h-6 justify-center items-center flex">
+                            <div className="flex items-center justify-center w-6 h-6">
                                 <div className="w-6 h-6 px-[6.41px] justify-center items-center inline-flex" />
                             </div>
                         </div>
@@ -60,16 +60,16 @@ const Datamentor = () => {
                 <button onClick={handleOpenOverlay} className="w-full h-[122px] rounded-[10px] flex-col justify-start items-start gap-2.5 inline-flex">
                     <div className="self-stretch p-5 bg-[#d2d2d2] rounded-[20px] justify-between items-center inline-flex">
                         <div className="justify-start items-center gap-[37px] flex">
-                            <img className="w-[82px] h-[82px] rounded-[10px]" src="/public/assetsvivit/Siska.png" />
+                            <img className="w-[82px] h-[82px] rounded-[10px]" src="/assetsvivit/Siska.png" />
                             <div className="w-full flex-col justify-left items-left flex gap-1.5">
                                 <div className="self-stretch text-black text-lg font-semibold font-['Plus Jakarta Sans'] ">Nadia Kurnia</div>
                                 <div className="self-stretch text-black text-base font-normal font-['Plus Jakarta Sans'] ">CV Consultant</div>
                             </div>
                         </div>
-                        <div className="justify-start items-center gap-2 flex">
+                        <div className="flex items-center justify-start gap-2">
                             <div className="w-4 h-4 bg-[#15d0a3] rounded-full" />
                             <div className="text-black text-base font-normal font-['Plus Jakarta Sans'] leading-[19px]">Aktif di 1 kelas</div>
-                            <div className="w-6 h-6 justify-center items-center flex">
+                            <div className="flex items-center justify-center w-6 h-6">
                                 <div className="w-6 h-6 px-[6.41px] justify-center items-center inline-flex" />
                             </div>
                         </div>
@@ -78,16 +78,16 @@ const Datamentor = () => {
                 <button onClick={handleOpenOverlay} className="w-full h-[122px] rounded-[10px] flex-col justify-start items-start gap-2.5 inline-flex">
                     <div className="self-stretch p-5 bg-[#d2d2d2] rounded-[20px] justify-between items-center inline-flex">
                         <div className="justify-start items-center gap-[37px] flex">
-                            <img className="w-[82px] h-[82px] rounded-[10px]" src="/public/assetsvivit/Andi.png" />
+                            <img className="w-[82px] h-[82px] rounded-[10px]" src="/assetsvivit/Andi.png" />
                             <div className="w-full flex-col justify-left items-left gap-1.5 flex">
                                 <div className="self-stretch text-black text-lg font-semibold font-['Plus Jakarta Sans'] leading-snug">Raka Nugraha</div>
                                 <div className="self-stretch text-black text-base font-normal font-['Plus Jakarta Sans'] leading-[19px]">Portfolio Advisor</div>
                             </div>
                         </div>
-                        <div className="justify-start items-center gap-2 flex">
+                        <div className="flex items-center justify-start gap-2">
                             <div className="w-4 h-4 bg-[#9d9d9d] rounded-full" />
                             <div className="text-black text-base font-normal font-['Plus Jakarta Sans'] leading-[19px]">Tidak Aktif</div>
-                            <div className="w-6 h-6 justify-center items-center flex">
+                            <div className="flex items-center justify-center w-6 h-6">
                                 <div className="w-6 h-6 px-[6.41px] justify-center items-center inline-flex" />
                             </div>
                         </div>
@@ -95,10 +95,10 @@ const Datamentor = () => {
                 </button>
                 
                 {showEditmentor && (
-                <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
+                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
                     <div className="bg-white p-6 rounded-3xl shadow-md relative h-auto w-[1000px]">
                         <button
-                            className="absolute top-2 right-2 text-gray-500"
+                            className="absolute text-gray-500 top-2 right-2"
                             onClick={handleCloseOverlay}
                         >
                             ✕
@@ -111,10 +111,10 @@ const Datamentor = () => {
                     <div className="self-stretch p-5 bg-[#d2d2d2] rounded-[20px] justify-start items-start gap-4 inline-flex">
                         <div className="grow shrink basis-0 flex-col justify-start items-start gap-[37px] inline-flex">
                             <div className="self-stretch justify-start items-center gap-[37px] inline-flex">
-                                <img className="w-[146px] h-[146px] rounded-[10px]" src="/public/assetsvivit/Tiara.png" />
-                                <div className="grow shrink basis-0 flex-col justify-center items-start gap-3 inline-flex">
+                                <img className="w-[146px] h-[146px] rounded-[10px]" src="/assetsvivit/Tiara.png" />
+                                <div className="inline-flex flex-col items-start justify-center gap-3 grow shrink basis-0">
                                     <div className="self-stretch justify-start items-center gap-[37px] inline-flex">
-                                        <div className="grow shrink basis-0 flex-col justify-center items-start gap-2 inline-flex">
+                                        <div className="inline-flex flex-col items-start justify-center gap-2 grow shrink basis-0">
                                             <div className="text-black text-lg font-semibold font-['Plus Jakarta Sans'] leading-snug">Nama Mentor</div>
                                             <div className="">
                                                 <Input
@@ -126,7 +126,7 @@ const Datamentor = () => {
                                                 />
                                             </div>
                                         </div>
-                                        <div className="grow shrink basis-0 flex-col justify-center items-start gap-2 inline-flex">
+                                        <div className="inline-flex flex-col items-start justify-center gap-2 grow shrink basis-0">
                                             <div className="text-black text-lg font-semibold font-['Plus Jakarta Sans'] leading-snug">Pekerjaan</div>
                                             <Input
                                                 title="Nama Lengkap"         
@@ -138,9 +138,9 @@ const Datamentor = () => {
                                         </div>
                                     </div>
                                     <div className="self-stretch justify-start items-center gap-[37px] inline-flex">
-                                        <div className="grow shrink basis-0 flex-col justify-center items-start gap-2 inline-flex">
+                                        <div className="inline-flex flex-col items-start justify-center gap-2 grow shrink basis-0">
                                             <div className="text-black text-lg font-semibold font-['Plus Jakarta Sans'] leading-snug">Kelas</div>
-                                            <div className="justify-start items-start gap-2 inline-flex">
+                                            <div className="inline-flex items-start justify-start gap-2">
                                                 <RadioButton  options={RadioButtonOpts} />
                                             </div>
                                         </div>
@@ -151,9 +151,9 @@ const Datamentor = () => {
                             
                             </div>
                             <div className="self-stretch justify-start items-center gap-[37px] inline-flex">
-                                <div className="grow shrink basis-0 flex-col justify-center items-start gap-3 inline-flex">
+                                <div className="inline-flex flex-col items-start justify-center gap-3 grow shrink basis-0">
                                     <div className="self-stretch justify-start items-center gap-[37px] inline-flex">
-                                        <div className="grow shrink basis-0 flex-col justify-center items-start gap-2">
+                                        <div className="flex-col items-start justify-center gap-2 grow shrink basis-0">
                                             <div className="text-black text-lg font-semibold font-['Plus Jakarta Sans'] mb-2 leading-snug">Tambahkan Tanggal</div>
                                             <div className="">
                                                 <Input
@@ -166,7 +166,7 @@ const Datamentor = () => {
                                                 />
                                             </div>
                                         </div>
-                                        <div className="grow shrink basis-0 flex-col justify-center items-start gap-2">
+                                        <div className="flex-col items-start justify-center gap-2 grow shrink basis-0">
                                             <div className="text-black text-lg font-semibold font-['Plus Jakarta Sans'] mb-2 leading-snug">Tambahkan Waktu</div>
                                             <div className="">
                                                 <Input
@@ -184,7 +184,7 @@ const Datamentor = () => {
                             </div>
                         </div>
                         <div className="py-[26px] justify-start items-center gap-2 flex">
-                            <div className="w-6 h-6 origin-top-left rotate-180 justify-center items-center flex">
+                            <div className="flex items-center justify-center w-6 h-6 origin-top-left rotate-180">
                                 <div className="w-6 h-6 px-[6.41px] justify-center items-center inline-flex" />
                             </div>
                         </div>

@@ -22,10 +22,10 @@ const EditMentor = () => {
         <div className="self-stretch p-5 bg-[#d2d2d2] rounded-[20px] justify-start items-start gap-4 inline-flex">
             <div className="grow shrink basis-0 flex-col justify-start items-start gap-[10px] inline-flex">
                 <div className="self-stretch justify-start items-center gap-[37px] inline-flex">
-                    <img className="w-[146px] h-[146px] rounded-[10px]" src="/public/assetsvivit/Tiara.png" />
-                    <div className="grow shrink basis-0 flex-col justify-center items-start gap-3 inline-flex">
+                    <img className="w-[146px] h-[146px] rounded-[10px]" src="/assetsvivit/Tiara.png" />
+                    <div className="inline-flex flex-col items-start justify-center gap-3 grow shrink basis-0">
                         <div className="self-stretch justify-start items-center gap-[37px] flex flex-row">
-                            <div className="mt-6 grow shrink basis-0 flex-col justify-center items-start gap-2">
+                            <div className="flex-col items-start justify-center gap-2 mt-6 grow shrink basis-0">
                                 <div className="">
                                     <Input
                                     title="Nama Lengkap"         
@@ -37,7 +37,7 @@ const EditMentor = () => {
                                     />
                                 </div>
                             </div>
-                            <div className="mt-6 grow shrink basis-0 flex-col justify-center items-start gap-2">
+                            <div className="flex-col items-start justify-center gap-2 mt-6 grow shrink basis-0">
                                 <Input
                                     title="Pekerjaan"         
                                     name="name"         
@@ -49,9 +49,9 @@ const EditMentor = () => {
                             </div>
                         </div>
                         <div className="self-stretch justify-start items-center gap-[37px] inline-flex">
-                            <div className="grow shrink basis-0 flex-col justify-center items-start gap-2 inline-flex">
+                            <div className="inline-flex flex-col items-start justify-center gap-2 grow shrink basis-0">
                                 <div className="text-black text-lg font-semibold font-['Plus Jakarta Sans'] leading-snug">Kelas</div>
-                                <div className="justify-start items-start gap-2 inline-flex">
+                                <div className="inline-flex items-start justify-start gap-2">
                                     <RadioButton  options={RadioButtonOpts} />
                                 </div>
                             </div>
@@ -62,9 +62,9 @@ const EditMentor = () => {
                 
                 </div>
                 <div className="self-stretch justify-start items-center gap-[37px] inline-flex">
-                    <div className="grow shrink basis-0 flex-col justify-center items-start gap-3 inline-flex">
+                    <div className="inline-flex flex-col items-start justify-center gap-3 grow shrink basis-0">
                         <div className="self-stretch justify-start items-center gap-[37px] inline-flex">
-                            <div className="grow shrink basis-0 flex-col justify-center items-start gap-2">
+                            <div className="flex-col items-start justify-center gap-2 grow shrink basis-0">
                                 <div className="">
                                     <Input
                                     title="Tambahkan Tanggal"         
@@ -76,7 +76,7 @@ const EditMentor = () => {
                                     />
                                 </div>
                             </div>
-                            <div className="grow shrink basis-0 flex-col justify-center items-start gap-2">
+                            <div className="flex-col items-start justify-center gap-2 grow shrink basis-0">
                                 <div className="">
                                     <Input
                                     title="Tambahkan Waktu"         
@@ -93,7 +93,7 @@ const EditMentor = () => {
                 </div>
             </div>
             <div className="py-[26px] justify-start items-center gap-2 flex">
-                <div className="w-6 h-6 origin-top-left rotate-180 justify-center items-center flex">
+                <div className="flex items-center justify-center w-6 h-6 origin-top-left rotate-180">
                     <div className="w-6 h-6 px-[6.41px] justify-center items-center inline-flex" />
                 </div>
             </div>

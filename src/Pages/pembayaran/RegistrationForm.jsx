@@ -74,7 +74,7 @@ function MentorSelection({ selectedMentor, setSelectedMentor }) {
           value="tiara"
           name="Tiara Dewi"
           role="CV Consultant"
-          photo="/public/assets/assetsvivit/Tiara.png"
+          photo="/assets/assetsvivit/Tiara.png"
           selectedMentor={selectedMentor}
           setSelectedMentor={setSelectedMentor}
         />
@@ -82,7 +82,7 @@ function MentorSelection({ selectedMentor, setSelectedMentor }) {
           value="siska"
           name="Siska Larasati"
           role="CV Consultant"
-          photo="/public/assets/assetsvivit/Siska.png"
+          photo="/assets/assetsvivit/Siska.png"
           selectedMentor={selectedMentor}
           setSelectedMentor={setSelectedMentor}
         />
@@ -90,7 +90,7 @@ function MentorSelection({ selectedMentor, setSelectedMentor }) {
           value="andi"
           name="Andi Wirawan"
           role="HR Specialist"
-          photo="/public/assets/assetsvivit/Andi.png"
+          photo="/assets/assetsvivit/Andi.png"
           selectedMentor={selectedMentor}
           setSelectedMentor={setSelectedMentor}
         />
