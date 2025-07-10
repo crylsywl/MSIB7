@@ -68,7 +68,7 @@ const Elearning = () => {
     <div>
       <Navbar onSearch={setSearchQuery} />
       <img
-        src="/public/assets/Banner eleerning.png"
+        src="/src/assets/assets/Banner eleerning.png"
         alt=""
         className="w-full mt-[64px] z-0 h-[245px] object-cover"
       />

@@ -69,12 +69,12 @@ function MentorSelection({ selectedMentor, setSelectedMentor }) {
   return (
     <div className="space-y-4">
       <h3 className="text-xl font-semibold">Pilih Mentor</h3>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         <MentorCard
           value="tiara"
           name="Tiara Dewi"
           role="CV Consultant"
-          photo="/public/assetsvivit/Tiara.png"
+          photo="/src/assets/assetsvivit/Tiara.png"
           selectedMentor={selectedMentor}
           setSelectedMentor={setSelectedMentor}
         />
@@ -82,7 +82,7 @@ function MentorSelection({ selectedMentor, setSelectedMentor }) {
           value="siska"
           name="Siska Larasati"
           role="CV Consultant"
-          photo="/public/assetsvivit/Siska.png"
+          photo="/src/assets/assetsvivit/Siska.png"
           selectedMentor={selectedMentor}
           setSelectedMentor={setSelectedMentor}
         />
@@ -90,7 +90,7 @@ function MentorSelection({ selectedMentor, setSelectedMentor }) {
           value="andi"
           name="Andi Wirawan"
           role="HR Specialist"
-          photo="/public/assetsvivit/Andi.png"
+          photo="/src/assets/assetsvivit/Andi.png"
           selectedMentor={selectedMentor}
           setSelectedMentor={setSelectedMentor}
         />
@@ -104,12 +104,12 @@ function ScheduleSelection({ selectedDate, setSelectedDate, selectedTime, setSel
     <div className="flex justify-between gap-8">
       <div className="flex-1">
         <label htmlFor="date" className="font-semibold">Pilih Tanggal</label>
-        <div className="border-2 border-black p-2 rounded mt-2">
+        <div className="p-2 mt-2 border-2 border-black rounded">
           <select
             id="date"
             value={selectedDate}
             onChange={(e) => setSelectedDate(e.target.value)}
-            className="picker-field w-full bg-transparent border-none"
+            className="w-full bg-transparent border-none picker-field"
           >
             <option value="2024-11-27">27 November 2024</option>
             <option value="2024-11-28">28 November 2024</option>
@@ -120,12 +120,12 @@ function ScheduleSelection({ selectedDate, setSelectedDate, selectedTime, setSel
 
       <div className="flex-1">
         <label htmlFor="time" className="font-semibold">Pilih Waktu</label>
-        <div className="border-2 border-black p-2 rounded mt-2">
+        <div className="p-2 mt-2 border-2 border-black rounded">
           <select
             id="time"
             value={selectedTime}
             onChange={(e) => setSelectedTime(e.target.value)}
-            className="picker-field w-full bg-transparent border-none"
+            className="w-full bg-transparent border-none picker-field"
           >
             <option value="09:00">09:00</option>
             <option value="10:00">10:00</option>
@@ -156,7 +156,7 @@ function FileUpload({ file, setFile }) {
       
       <label
         htmlFor="file"
-        className="upload-btn cursor-pointer inline-block text-center px-4"
+        className="inline-block px-4 text-center cursor-pointer upload-btn"
       >
         Pilih File
       </label>
@@ -181,7 +181,7 @@ function MentorCard({ value, name, role, photo, icon, selectedMentor, setSelecte
       >
         <img src={photo} alt={name} className="mentor-photo object-cover w-167.25 h-167 rounded-[7.5px] mb-4 mt-[30px]" />
         <div className="mentor-info text-center mt-[-10px]">
-          <p className="mentor-name text-lg font-semibold">{name}</p>
+          <p className="text-lg font-semibold mentor-name">{name}</p>
         </div>
         <div className="flex items-center mb-4">
           <input

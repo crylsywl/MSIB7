@@ -8,13 +8,13 @@ export default function PaymentModal({ onClose }) {
   };
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
+    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
       <div className="bg-[#fffff0] p-6 rounded-lg max-w-3xl w-11/12">
-        <h2 className="text-3xl font-semibold mb-6">Pilih Metode Pembayaran:</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <h2 className="mb-6 text-3xl font-semibold">Pilih Metode Pembayaran:</h2>
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           <PaymentOption
             name="Gopay"
-            image="/public/assetsvivit/gopay.png"
+            image="/src/assets/assetsvivit/gopay.png"
             fee={1000}
             total={16000}
             isSelected={selectedPayment === "Gopay"}
@@ -22,7 +22,7 @@ export default function PaymentModal({ onClose }) {
           />
           <PaymentOption
             name="OVO"
-            image="/public/assetsvivit/OVO.png"
+            image="/src/assets/assetsvivit/OVO.png"
             fee={2000}
             total={17000}
             isSelected={selectedPayment === "OVO"}
@@ -30,7 +30,7 @@ export default function PaymentModal({ onClose }) {
           />
           <PaymentOption
             name="ShopeePay"
-            image="/public/assetsvivit/sopay.png"
+            image="/src/assets/assetsvivit/sopay.png"
             fee={2000}
             total={17000}
             isSelected={selectedPayment === "ShopeePay"}
@@ -38,7 +38,7 @@ export default function PaymentModal({ onClose }) {
           />
           <PaymentOption
             name="Dana"
-            image="/public/assetsvivit/Dana.png"
+            image="/src/assets/assetsvivit/Dana.png"
             fee={2000}
             total={17000}
             isSelected={selectedPayment === "Dana"}
@@ -67,7 +67,7 @@ function PaymentOption({ name, image, fee, total, isSelected, onSelect }) {
           : ''
       }`}
     >
-      <img src={image} alt={name} className="h-16 w-auto" />
+      <img src={image} alt={name} className="w-auto h-16" />
       <div>
         <p className="font-semibold">{name}</p>
         <p className="text-sm">Biaya Transaksi Rp {fee.toLocaleString()}</p>
