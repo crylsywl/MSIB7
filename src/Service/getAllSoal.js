@@ -8,7 +8,7 @@ export default function getAllSoal() {
         jumlah: 10,
         rating: 5,
         Categori : `Tes Logika Penalaran`,
-        image: '/src/assets/Soal 1.png',
+        image: '/public/assets/Soal 1.png',
       },  
       {
         id: 'SOAL-2',
@@ -18,7 +18,7 @@ export default function getAllSoal() {
         jumlah: 5,
         rating: 4.9,
         Categori : `Tes Kemampuan Verbal`,
-        image: '/src/assets/Soal 2.png',
+        image: '/public/assets/Soal 2.png',
       }, 
       {
         id: 'SOAL-3',
@@ -28,7 +28,7 @@ export default function getAllSoal() {
         jumlah: 10,
         rating: 4.8,
         Categori : `Tes Numerik`,
-        image: '/src/assets/Soal 3.png',
+        image: '/public/assets/Soal 3.png',
       }, 
       {
         id: 'SOAL-4',
@@ -38,7 +38,7 @@ export default function getAllSoal() {
         jumlah: 5,
         rating: 4.9,
         Categori : `Tes Kemampuan Spasial`,
-        image: '/src/assets/Soal 4.png',
+        image: '/public/assets/Soal 4.png',
       },     
     ];
   }

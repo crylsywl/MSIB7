@@ -23,7 +23,7 @@ const Mentoring = () => {
         <div className="mx-[150px] absolute top-[400px] left-[190px] right-[190px] justify-center items-center gap-[20px] flex">
           <div className="w-[263px] h-[335px] bg-[#4c37ee] rounded-[10px] flex-col justify-between py-[40px] items-center gap-auto inline-flex">
             <img
-              src="/src/assets/CV.png"
+              src="/public/assets/CV.png"
               alt=""
               className="w-[96px] h-[83px]"
             />
@@ -44,7 +44,7 @@ const Mentoring = () => {
           </div>
           <div className="w-[263px] h-[335px] bg-[#4c37ee] rounded-[10px] flex-col justify-between py-[40px] items-center gap-2 inline-flex">
             <img
-              src="/src/assets/Portfolio.png"
+              src="/public/assets/Portfolio.png"
               alt=""
               className="w-[96px] h-[83px]"
             />
@@ -65,7 +65,7 @@ const Mentoring = () => {
           </div>
           <div className="w-[263px] h-[335px] bg-[#4c37ee] rounded-[10px] flex-col justify-between py-[40px] items-center gap-2 inline-flex">
             <img
-              src="/src/assets/Interview.png"
+              src="/public/assets/Interview.png"
               alt=""
               className="w-[96px] h-[83px]"
             />
@@ -92,7 +92,7 @@ const Mentoring = () => {
           <Link to="/">
             <div className="hover:ring-1 hover:ring-[#fdab7f] flex items-center p-[20px] gap-[18px] justify-start h-[150px] w-fit shadow-[0px_4px_10px_rgba(0,_0,_0,_0.3)] bg-[#fffff0] rounded-[10px]">
               <img
-                src="/src/assets/cv.png"
+                src="/public/assets/cv.png"
                 alt=""
                 className="w-[100px] h-auto"
               />
@@ -124,31 +124,31 @@ const Mentoring = () => {
               <div className="bg-black h-[1px] w-full rounded-full " />
             </div>
             <div className="gap-[20px] flex flex-row items-center justify-center">
-              <img src="/src/assets/point.svg" alt="" />
+              <img src="/public/assets/point.svg" alt="" />
               <div className="text-black text-base font-semibold font-['Plus Jakarta Sans'] leading-[19px]">
                 10 kali review CV selama 4 bulan
               </div>
             </div>
             <div className="gap-[20px] flex flex-row items-center justify-start">
-              <img src="/src/assets/point.svg" alt="" />
+              <img src="/public/assets/point.svg" alt="" />
               <div className="text-black text-base font-semibold font-['Plus Jakarta Sans'] leading-[19px]">
                 10 Template CV (Inggris/Indonesia)
               </div>
             </div>
             <div className="gap-[20px] flex flex-row items-center justify-start">
-              <img src="/src/assets/point.svg" alt="" />
+              <img src="/public/assets/point.svg" alt="" />
               <div className="text-black text-base font-semibold font-['Plus Jakarta Sans'] leading-[19px]">
                 Linkedin Guiedline
               </div>
             </div>
             <div className="gap-[20px] flex flex-row items-center justify-center">
-              <img src="/src/assets/point.svg" alt="" />
+              <img src="/public/assets/point.svg" alt="" />
               <div className="text-black text-base font-semibold font-['Plus Jakarta Sans'] leading-[19px]">
                 5 kali simulasi interview
               </div>
             </div>
             <div className="gap-[20px] flex flex-row items-center justify-center">
-              <img src="/src/assets/point.svg" alt="" />
+              <img src="/public/assets/point.svg" alt="" />
               <div className="text-black text-base font-semibold font-['Plus Jakarta Sans'] leading-[19px]">
                 5 kali review portofolio
               </div>
@@ -173,25 +173,25 @@ const Mentoring = () => {
             </div>
             <div className="gap-[20px] flex flex-col items-start h-full justify-start">
               <div className="gap-[20px] flex flex-row items-center justify-center">
-                <img src="/src/assets/point.svg" alt="" />
+                <img src="/public/assets/point.svg" alt="" />
                 <div className="text-black text-base font-semibold font-['Plus Jakarta Sans'] leading-[19px]">
                   2 kali review CV selama satu bulan
                 </div>
               </div>
               <div className="gap-[20px] flex flex-row items-center justify-start">
-                <img src="/src/assets/point.svg" alt="" />
+                <img src="/public/assets/point.svg" alt="" />
                 <div className="text-black text-base font-semibold font-['Plus Jakarta Sans'] leading-[19px]">
                   2 Template CV (Inggris/Indonesia)
                 </div>
               </div>
               <div className="gap-[20px] flex flex-row items-center justify-start">
-                <img src="/src/assets/point.svg" alt="" />
+                <img src="/public/assets/point.svg" alt="" />
                 <div className="text-black text-base font-semibold font-['Plus Jakarta Sans'] leading-[19px]">
                   1 kali simulasi interview
                 </div>
               </div>
               <div className="gap-[20px] flex flex-row items-center justify-center">
-                <img src="/src/assets/point.svg" alt="" />
+                <img src="/public/assets/point.svg" alt="" />
                 <div className="text-black text-base font-semibold font-['Plus Jakarta Sans'] leading-[19px]">
                   1 kali review portofolio
                 </div>
@@ -218,25 +218,25 @@ const Mentoring = () => {
             </div>
             <div className="gap-[20px] flex flex-col items-start h-full justify-start">
               <div className="gap-[20px] flex flex-row items-center justify-center">
-                <img src="/src/assets/point.svg" alt="" />
+                <img src="/public/assets/point.svg" alt="" />
                 <div className="text-black text-base font-semibold font-['Plus Jakarta Sans'] leading-[19px]">
                   4 kali review CV selama 2 bulan
                 </div>
               </div>
               <div className="gap-[20px] flex flex-row items-center justify-start">
-                <img src="/src/assets/point.svg" alt="" />
+                <img src="/public/assets/point.svg" alt="" />
                 <div className="text-black text-base font-semibold font-['Plus Jakarta Sans'] leading-[19px]">
                   4 Template CV (Inggris/Indonesia)
                 </div>
               </div>
               <div className="gap-[20px] flex flex-row items-center justify-start">
-                <img src="/src/assets/point.svg" alt="" />
+                <img src="/public/assets/point.svg" alt="" />
                 <div className="text-black text-base font-semibold font-['Plus Jakarta Sans'] leading-[19px]">
                   4 kali simulasi interview
                 </div>
               </div>
               <div className="gap-[20px] flex flex-row items-center justify-center">
-                <img src="/src/assets/point.svg" alt="" />
+                <img src="/public/assets/point.svg" alt="" />
                 <div className="text-black text-base font-semibold font-['Plus Jakarta Sans'] leading-[19px]">
                   4 kali review portofolio
                 </div>

@@ -68,7 +68,7 @@ const Elearning = () => {
     <div>
       <Navbar onSearch={setSearchQuery} />
       <img
-        src="/src/assets/assets/Banner eleerning.png"
+        src="/public/assets/assets/Banner eleerning.png"
         alt=""
         className="w-full mt-[64px] z-0 h-[245px] object-cover"
       />
@@ -92,7 +92,7 @@ const Elearning = () => {
         <div className="grow shrink basis-0 shadow-xl rounded-full self-stretch p-1 justify-start bg-[#f9f9f9] items-center flex">
           <div className="items-center rounded-tl-full rounded-bl-full pl-[10px] p-1 bg-[#f9f9f9] flex">
             <img
-              src="/src/assets/menu.svg"
+              src="/public/assets/menu.svg"
               className="w-10 h-10 flex-col bg-[#f9f9f9] justify-center items-center gap-2.5 inline-flex"
             />
           </div>
@@ -109,7 +109,7 @@ const Elearning = () => {
           </div>
           <div className="justify-end items-center rounded-tr-full pr-[10px] rounded-br-full p-2 bg-[#f9f9f9] flex">
             <img
-              src="/src/assets/search.svg"
+              src="/public/assets/search.svg"
               className="w-8 h-8  flex-col bg-[#f9f9f9] justify-center items-center gap-2.5 inline-flex"
             />
           </div>

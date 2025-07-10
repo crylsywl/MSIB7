@@ -6,7 +6,7 @@ export default function getAllArtikel() {
       slug: "Mengenal_Profesi_UI_UX_Designer_Tugas_Skill_dan_karir",
       Judul: "Mengenal Profesi UI/UX Designer: Tugas, Skill, dan Karir",
       Categori: `Design`,
-      Img: "/src/assets/Artikel 1.png",
+      Img: "/public/assets/Artikel 1.png",
       description: `Di era digital saat ini, tampilan dan pengalaman pengguna menjadi salah satu faktor utama kesuksesan sebuah produk digital, baik itu aplikasi, website, maupun software lainnya.`,
       isi: `1. Apa Itu UI/UX Designer?
 
@@ -34,7 +34,7 @@ Sebagai peran yang vital dalam pengembangan produk digital, UI/UX Designer memil
       Judul:
         "Data Analyst: Peran Penting dan Skill Wajib dalam Pengambilan Keputusan",
       Categori: `Data`,
-      Img: "/src/assets/Artikel 2.png",
+      Img: "/public/assets/Artikel 2.png",
       description: `Profesi Data Analyst memiliki peran penting dalam membantu perusahaan membuat keputusan berdasarkan data yang akurat.`,
       isi: `Di era digital yang penuh dengan informasi, kemampuan untuk mengolah dan menganalisis data menjadi sangat penting bagi organisasi. Di sinilah peran seorang Data Analyst menjadi sangat strategis. Dengan keahliannya dalam mengubah data mentah menjadi informasi yang bernilai, Data Analyst membantu perusahaan dalam mengambil keputusan yang lebih cepat, tepat, dan berbasis bukti.
 
@@ -119,7 +119,7 @@ Jika kamu memiliki ketertarikan pada angka, logika, dan ingin memberikan dampak 
       Judul:
         "Digital Marketing Specialist: Memahami Tugas, Skill, dan Prospek di Era Digital",
       Categori: `Industrial`,
-      Img: "/src/assets/Artikel 3.png",
+      Img: "/public/assets/Artikel 3.png",
       description: `Salah satu peran yang semakin penting dalam upaya bisnis untuk menjangkau pelanggan secara digital adalah Digital Marketing Specialist.`,
       isi: `Di tengah pesatnya perkembangan teknologi informasi, peran Digital Marketing Specialist menjadi sangat penting bagi perusahaan dalam menjangkau konsumen secara lebih efektif. Pemasaran tidak lagi terbatas pada media cetak atau televisi—sekarang dunia digital telah menjadi medan utama untuk mempromosikan produk, membangun brand awareness, dan meningkatkan penjualan.
 
@@ -198,7 +198,7 @@ Bagi kamu yang ingin terjun ke dunia digital marketing, bekali diri dengan skill
       slug: "Data_Scientist_Profesi_dengan_Prospek_Tinggi_di_Era_Big_Data",
       Judul: "Data Scientist: Profesi dengan Prospek Tinggi di Era Big Data",
       Categori: `Engineer`,
-      Img: "/src/assets/Artikel 4.png",
+      Img: "/public/assets/Artikel 4.png",
       description: `Di era digital saat ini, tampilan dan pengalaman pengguna menjadi salah satu faktor utama kesuksesan sebuah produk digital, baik itu aplikasi, website, maupun software lainnya.`,
       isi: `Di era digital yang semakin maju, data menjadi aset berharga bagi banyak perusahaan. Dari data penjualan, perilaku pengguna, hingga tren pasar—semuanya dapat diolah untuk menghasilkan insight yang bermanfaat bagi pengambilan keputusan. Di sinilah peran Data Scientist menjadi sangat vital. Profesi ini digadang-gadang sebagai “the sexiest job of the 21st century” oleh Harvard Business Review karena nilai strategisnya dalam dunia bisnis modern.
 
