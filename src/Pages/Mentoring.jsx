@@ -22,11 +22,7 @@ const Mentoring = () => {
       <div className="h-[301px] bg-[#a49af6] rounded-tl-[20px] rounded-tr-[20px] mt-[209px]">
         <div className="mx-[150px] absolute top-[400px] left-[190px] right-[190px] justify-center items-center gap-[20px] flex">
           <div className="w-[263px] h-[335px] bg-[#4c37ee] rounded-[10px] flex-col justify-between py-[40px] items-center gap-auto inline-flex">
-            <img
-              src="/assets/CV.png"
-              alt=""
-              className="w-[96px] h-[83px]"
-            />
+            <img src="/assets/CV.png" alt="" className="w-[96px] h-[83px]" />
             <div className="text-center text-[#fffff0] text-2xl font-semibold font-['Plus Jakarta Sans'] leading-relaxed tracking-tight">
               JobReady CV
             </div>
@@ -92,7 +88,7 @@ const Mentoring = () => {
           <Link to="/">
             <div className="hover:ring-1 hover:ring-[#fdab7f] flex items-center p-[20px] gap-[18px] justify-start h-[150px] w-fit shadow-[0px_4px_10px_rgba(0,_0,_0,_0.3)] bg-[#fffff0] rounded-[10px]">
               <img
-                src="/assets/cv.png"
+                src="/public/assets/CV.png"
                 alt=""
                 className="w-[100px] h-auto"
               />
